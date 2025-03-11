@@ -26,6 +26,7 @@ tasks:
     - sudo chmod a+rX /opt/nvim-linux-x86_64
     - sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
     - sudo ln -sf /opt/nvim-linux-x86_64/bin/nvim /usr/local/bin/
+    - rm nvim-linux-x86_64.tar.gz
 
   install-nixos:
     internal: true
